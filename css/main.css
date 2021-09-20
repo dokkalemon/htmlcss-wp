@@ -7,6 +7,18 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    font-weight: 300;
+    color: #a3a3a3;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    color: black
+}
+
+
+
 /* Utilities */
 .debug-fix {
     height: 100%;
@@ -48,6 +60,12 @@
     margin: 0 auto;
 }
 
+
+
+
+
+
+
 /* header */
 header {
     /* background-color: #e579e6; */
@@ -80,11 +98,53 @@ header {
 
 
 /* main */
+/* hero */
 .main-conteiner {
     width: 100%;
-    height: 500px; 
-    background-color: #e1d67a;
+    height: 550px; 
+    /* background-color: #e1d67a; */
 }
+
+.hero {
+    height: 100%;
+    width: 100%; 
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center -95px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.hero-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.hero-text {
+    height: 40%;
+    width: 55%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 40px
+
+}
+
+.hero-text > h4 {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+.hero-text > p {
+    color: white
+}
+
+
+
 
 /* grid layout */
 .grid-conteiner {
@@ -99,6 +159,7 @@ header {
     width: 100%;
     height: 100px
 }
+
 
 .col {
   
